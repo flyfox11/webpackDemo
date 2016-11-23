@@ -1,0 +1,32 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "this is a project for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuangyanyan/webpack.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "huzf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhuangyanyan/webpack/issues"
+  },
+  "homepage": "https://github.com/zhuangyanyan/webpack#readme",
+  "devDependencies": {
+    "css-loader": "^0.26.0",
+    "gulp": "^3.9.1",
+    "gulp-webpack": "^1.5.0",
+    "jsx-loader": "^0.13.2",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1"
+  },
+  "dependencies": {}
+}
