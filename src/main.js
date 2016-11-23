@@ -1,7 +1,6 @@
-/**
- * Created by os-huzp on 2016/11/23.
- */
-/* 内容区模块代码 */
+
+/*
+/!* 内容区模块代码 *!/
 var ContentMode = React.createClass({
     render: function(){
         return (
@@ -12,7 +11,7 @@ var ContentMode = React.createClass({
         )
     }
 });
-/* 页面div封装 上面三个模块 */
+/!* 页面div封装 上面三个模块 *!/
 var Page = React.createClass({
     render: function(){
         return (
@@ -23,7 +22,13 @@ var Page = React.createClass({
         )
     }
 });
-/* 初始化到content容器内 */
+/!* 初始化到content容器内 *!/
 React.render(
     React.createElement(Page,null),document.getElementById("content")
-);
+);*/
+// require('../css/main.less');
+/*
+var loader = require('./bind');
+console.log(loader);*/
+// require("./module1");
+require('../css/main.css');

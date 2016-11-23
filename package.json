@@ -20,13 +20,19 @@
   },
   "homepage": "https://github.com/zhuangyanyan/webpack#readme",
   "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
     "css-loader": "^0.26.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
     "gulp": "^3.9.1",
     "gulp-webpack": "^1.5.0",
     "jsx-loader": "^0.13.2",
     "less": "^2.7.1",
     "less-loader": "^2.2.3",
-    "style-loader": "^0.13.1"
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.3"
   },
   "dependencies": {}
 }
